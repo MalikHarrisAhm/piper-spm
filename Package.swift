@@ -15,9 +15,9 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/IhorShevchuk/espeak-ng-spm",
                  "2023.9.13"..."2023.9.13"),
-        .package(url: "https://github.com/IhorShevchuk/fmt-spm",
+        .package(url: "https://github.com/MalikHarrisAhm/fmt-spm",
                  .upToNextMajor(from: "10.2.1")),
-        .package(url: "https://github.com/IhorShevchuk/spdlog-spm",
+        .package(url: "https://github.com/MalikHarrisAhm/spdlog-spm",
                  .upToNextMajor(from: "1.13.0")),
         .package(url: "https://github.com/IhorShevchuk/piper-phonemize-spm",
                  .upToNextMajor(from: "2023.11.14")),
