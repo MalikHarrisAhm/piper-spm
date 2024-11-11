@@ -19,8 +19,8 @@ let package = Package(
                  .upToNextMajor(from: "10.2.1")),
         .package(url: "https://github.com/MalikHarrisAhm/spdlog-spm",
                  .upToNextMajor(from: "1.13.0")),
-        .package(url: "https://github.com/IhorShevchuk/piper-phonemize-spm",
-                 .upToNextMajor(from: "2023.11.14")),
+        .package(url: "https://github.com/MalikHarrisAhm/piper-phonemize-spm",
+                 .upToNextMajor(from: "2024.11.11")),
     ],
     targets: [
         .target(name: "piper",
